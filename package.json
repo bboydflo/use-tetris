@@ -68,5 +68,6 @@
   },
   "bugs": {
     "url": "https://github.com/bboydflo/use-tetris/issues"
-  }
+  },
+  "keywords": ["preact", "react", "react-hooks", "tetris"]
 }
