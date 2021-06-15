@@ -1,5 +1,5 @@
 {
-  "version": "0.3.4",
+  "version": "0.4.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -71,5 +71,10 @@
   "bugs": {
     "url": "https://github.com/bboydflo/use-tetris/issues"
   },
-  "keywords": ["preact", "react", "react-hooks", "tetris"]
+  "keywords": [
+    "preact",
+    "react",
+    "react-hooks",
+    "tetris"
+  ]
 }
