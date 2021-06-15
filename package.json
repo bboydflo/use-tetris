@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -17,9 +17,12 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
-    "analyze": "size-limit --why"
+    "analyze": "size-limit --why",
+    "publish": "npm publish"
   },
   "peerDependencies": {
+    "klona": "^2.0.4",
+    "raf": "^3.4.1",
     "react": ">=16.8"
   },
   "husky": {
@@ -48,6 +51,7 @@
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^4.12.0",
+    "@types/raf": "^3.4.0",
     "@types/react": "^17.0.11",
     "@types/react-dom": "^17.0.7",
     "husky": "^6.0.0",
