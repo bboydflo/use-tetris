@@ -1,5 +1,5 @@
 {
-  "version": "0.3.2",
+  "version": "0.3.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -37,7 +37,7 @@
     "trailingComma": "es5"
   },
   "name": "use-tetris",
-  "author": "Florin Cosmin",
+  "author": "Florin Cosmin Onciu",
   "module": "dist/use-tetris.esm.js",
   "size-limit": [
     {
@@ -61,5 +61,12 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.3.0",
     "typescript": "^4.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bboydflo/use-tetris.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bboydflo/use-tetris/issues"
   }
 }
