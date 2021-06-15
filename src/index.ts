@@ -1,7 +1,7 @@
 import { useRef, useState, useCallback } from 'react';
 import raf from 'raf';
 
-import { Key, ROWS, COLS } from './constants';
+import { ROWS, COLS, Key } from './constants';
 import { GameState, Tetris } from './tetris';
 
 export function useTetris(rows = ROWS, cols = COLS) {
@@ -137,3 +137,5 @@ export function useTetris(rows = ROWS, cols = COLS) {
 }
 
 export * from './tetris';
+export * from './constants';
+export * from './tetromino';
