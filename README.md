@@ -1,4 +1,4 @@
-# Tetris Game implemented as a custom hook
+# Tetris game logic implemented as a custom hook
 
 This is a fun project with the sole purpose to learn new things. It is a work in progress. Currently there are some things missing:
 
