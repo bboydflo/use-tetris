@@ -4,10 +4,10 @@ import raf from 'raf';
 import { Key, ROWS, COLS } from './constants';
 import { GameState, Tetris } from './tetris';
 
-export function useTetris() {
+export function useTetris(rows = ROWS, cols = COLS) {
   // @ts-ignore
   const [_, setTick] = useState(0);
-  const gameRef = useRef(new Tetris(ROWS, COLS));
+  const gameRef = useRef(new Tetris(rows, cols));
   const requestRef = useRef(0);
   const previousTimeRef = useRef(performance.now());
 
