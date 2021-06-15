@@ -277,5 +277,3 @@ export class Tetris {
     return this.state.piece!.y === 0;
   }
 }
-
-export * from './constants';
