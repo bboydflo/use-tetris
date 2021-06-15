@@ -51,13 +51,13 @@ This is the folder structure we set up for you:
 ```txt
 /example
   index.html
-  index.tsx       # test your component here in a demo app
+  index.ts       # test your component here in a demo app
   package.json
   tsconfig.json
 /src
-  index.tsx       # EDIT THIS
+  index.ts       # EDIT THIS
 /test
-  blah.test.tsx   # EDIT THIS
+  blah.test.ts   # EDIT THIS
 .gitignore
 package.json
 README.md         # EDIT THIS
